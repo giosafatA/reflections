@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Viene creata la cartella .git
+git init è il comando utilizzato per inizializzare una repository su una directory esistente
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+La staging area è un livello intermedio al repository dove aggiungere i file prima del commit.
+Consente di gestire i commit in maniera più razionale separandoli logicamente
+
+
