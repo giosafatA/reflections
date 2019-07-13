@@ -10,3 +10,6 @@ Consente di gestire i commit in maniera più razionale separandoli logicamente
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Ogniqualvolta si realizza una nuova feature, si effettua una change request o si sperimentano una o più funzionalità
+
+How do the diagrams help you visualize the branch structure?
+La struttura dei branch è utile per capire le feature, i bugfix, le funzionalità sperimentali, e più in generale l'intera struttura del progetto
