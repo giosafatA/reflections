@@ -1,19 +1,27 @@
-What happens when you initialize a repository? Why do you need to do it?
+Q: What happens when you initialize a repository? Why do you need to do it?
 
-Viene creata la cartella .git
-git init è il comando utilizzato per inizializzare una repository su una directory esistente
+A:  Viene creata la cartella .git
+    git init è il comando utilizzato per inizializzare una repository su una directory esistente
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-La staging area è un livello intermedio al repository dove aggiungere i file prima del commit.
-Consente di gestire i commit in maniera più razionale separandoli logicamente
+A:  La staging area è un livello intermedio al repository dove aggiungere i file prima del commit.
+    Consente di gestire i commit in maniera più razionale separandoli logicamente
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-Ogniqualvolta si realizza una nuova feature, si effettua una change request o si sperimentano una o più funzionalità
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-How do the diagrams help you visualize the branch structure?
-La struttura dei branch è utile per capire le feature, i bugfix, le funzionalità sperimentali, e più in generale l'intera struttura del progetto
+A:  Ogniqualvolta si realizza una nuova feature, si effettua una change request o si sperimentano una o più funzionalità
 
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-Il risultato è un singolo branche che contiene le modifiche (commit) di entrambi i branches.
-Per rappresentarlo in un diagramma possiamo fare un nuovo grafo in continuazione con master che parte dal branche con il quale stiamo facendo il merge
+Q: How do the diagrams help you visualize the branch structure?
+
+A:  La struttura dei branch è utile per capire le feature, i bugfix, le funzionalità sperimentali, e più in generale l'intera struttura del progetto e la sua attuale situazione generale
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A:  Il risultato è un singolo branche che contiene le modifiche (commit) di entrambi i branches.
+    Perché il nuovo commit risultante dal merge fa riferimento ad entrambi i branche con i rispettivi commit
+
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+A:  Pros: Il merge automatico consente di risparmiare molto tempo non dovendo verificare le differenti versioni dei file.
+    Cons: Non sempre è fattibile (es. conflict), in quel caso occorre sempre una revisione manuale.
