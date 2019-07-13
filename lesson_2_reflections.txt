@@ -13,3 +13,7 @@ Ogniqualvolta si realizza una nuova feature, si effettua una change request o si
 
 How do the diagrams help you visualize the branch structure?
 La struttura dei branch è utile per capire le feature, i bugfix, le funzionalità sperimentali, e più in generale l'intera struttura del progetto
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Il risultato è un singolo branche che contiene le modifiche (commit) di entrambi i branches.
+Per rappresentarlo in un diagramma possiamo fare un nuovo grafo in continuazione con master che parte dal branche con il quale stiamo facendo il merge
