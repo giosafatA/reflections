@@ -1,34 +1,34 @@
-How did viewing a diff between two versions of a file help you see the bug that
+Q: How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    Using FC from Windows or diff -u from linux or Mac OS
+A:    Compare different version of the file coul'd be useful to find when and what bug was introduced.
 
-How could having easy access to the entire history of a file make you a more
+Q: How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-    Having a version for all changes committed.
+A:    Having a version for all changes committed give the capability to know how that file has been evolved and if there are problems or bugs you can always go back and start again.
 
-What do you think are the pros and cons of manually choosing when to create a
+Q: What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    Choose when to create a commit is useful because you can choose what changes will be saved, in logical way.
+A:    Choose when to create a commit is useful because you can choose what changes will be saved, in logical way.
 	An automatic save could create an incomplete checkpoint in which the functionality could not be already completed.
 
-Why do you think some version control systems, like Git, allow saving multiple
+Q: Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Because each commit of git identify a particular status of the entire project at that specific time.
+A:    Because each commit of git identify a particular status of the entire project at that specific time.
 
-How can you use the commands git log and git diff to view the history of files?
+Q: How can you use the commands git log and git diff to view the history of files?
 
-    git log could be used to see the commits history and to look for the messages and git diff could be used to compare two commits and to see the changes.
+A:    git log could be used to see the commits history and to look for the messages and git diff could be used to compare two commits and to see the changes.
 
-How might using version control make you more confident to make changes that
+Q: How might using version control make you more confident to make changes that
 could break something?
 
-    Fill in your answer here
+A:    Because I can always go back to the last working commit and resolve problems caused with the changes introduced.
 
-Now that you have your workspace set up, what do you want to try using Git for?
+Q: Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+A:    I'll use it in my working project to have a better organization
